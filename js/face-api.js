@@ -1994,6 +1994,7 @@
             : defaultManifestFilename;
         var modelBaseUri = protocol + (uri.endsWith('.json') ? parts.slice(0, parts.length - 1) : parts).join('/');
         modelBaseUri = uri.startsWith('/') ? "/" + modelBaseUri : modelBaseUri;
+        console.log(`{modelBaseUri: ${modelBaseUri}, manifestFile: ${manifestFile}}`)
         return {
             modelBaseUri: modelBaseUri,
             manifestUri: modelBaseUri === '/' ? "/" + manifestFile : modelBaseUri + "/" + manifestFile
