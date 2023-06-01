@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "./frame-api-II",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
